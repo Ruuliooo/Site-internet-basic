@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+    <html lang="fr">
+
+        <head>
+
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+            <title>Calculateur réseau</title>
+            
+        </head>
+
+        <body>  
+            <h1> TP Formulaire et CSS </h1>
+            <form>
+                <img src="https://pixees.fr/wp-content/uploads/2015/11/david_roche_dr_12-300x300.png">
+                <label for="IP">Adresse IP : </label>
+                <input type="text" id="IP" name="IP" required>
+                
+                <br>
+                <br>
+                <label for="MD">Masque de sous-réseau (Décimal) : </label>
+                <input type="text" id="MD" name="MD" required>
+                
+                <br>
+                <br>
+                <label for="MCIDR">Masque de sous-réseau (CIDR) : </label>
+                <input type="text" id="MCIDR" name="MCIDR" required>
+                
+                <br>
+                <br>
+                <input type="submit" value="Calculer">
+            </form>
+        </body>
+    </html>
